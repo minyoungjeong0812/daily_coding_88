@@ -1,0 +1,15 @@
+##My answer
+
+def division(a,b):
+    ##5/2 = 2 , 5-2-2-2 <0
+
+    counter = 0
+
+
+    while a - b >= 0:
+        a = a - b #a = 3 - 2
+        counter +=1
+
+    return counter
+
+print(division(15,4))
